@@ -1,0 +1,60 @@
+body{
+    margin:0px;
+    padding:0px;
+    background:rgb(245, 245, 245); font-family: 'Raleway', sans-serif; 
+}
+
+.titulo {
+    font-weight: bold;
+    margin-left: 150px;
+    margin-top: 40px;
+}
+
+.datos {
+    width: 500px;
+    margin: auto;
+    min-height: 600px;
+    padding-top: 70px;
+    padding-left: 50px;
+}
+
+.add1{
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.texto{
+    width: 85%;
+    font-size: 20px;
+    margin-top: 5px;
+}
+
+.texto, .fecha, select{
+    border-bottom: 2px solid rgb(202, 202, 202);
+    border-top: none;
+    border-left: none;
+    border-right: none;  
+}
+
+.texto:hover, .fecha:hover {
+    border-color: #714aa8;
+    cursor: pointer;
+}
+
+.foto{
+    font-size: 18px;
+    margin-top: 5px;
+}
+
+@media only screen and (min-width:769px) and (max-width:1182px){
+    .datos {
+        width: 800px;
+    }
+}
+
+/*Query-cel-y-tablet*/
+@media only screen and (min-width:350px) and (max-width:768px){
+    .datos {
+        width: 500px;
+    }
+}

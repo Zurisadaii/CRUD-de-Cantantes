@@ -1,0 +1,142 @@
+body{
+    margin:0px;
+    padding:0px;
+    background:rgb(245, 245, 245); font-family: 'Raleway', sans-serif; 
+}
+
+.menu{
+    width:100%;
+    height:45px;
+    background:#714aa8;
+    margin:0px;
+    margin-top:-1px;
+}
+
+.elementos{
+    float:left;
+    margin: auto;
+    display: flex;
+    padding-left:30px;
+    padding-right:0px;
+    justify-content: center;
+    width: 98%;
+    height: 45px;
+}
+.item, .item-2, .item-3{
+    float:center;
+    margin-right: 8%;
+    margin-top: 0px;
+    color: white;
+    display: flex;
+    width: auto;
+}
+
+.click:hover{
+    cursor: pointer;
+    color: purple;
+}
+
+.item2{
+    float:center;
+    margin-left: 5%;
+    margin-top: -55px;
+    color: white;
+    display: flex;
+    width: auto;
+    padding-bottom: 10px;
+    position: absolute;
+    left: 71%;
+}
+
+.item3{
+    float:center;
+    margin-left: 5%;
+    margin-top: -40px;
+    color: white;
+    display: flex;
+    width: 8%;
+    padding-bottom: 10px;
+    position: absolute;
+    left: 86%;
+}
+
+.item3:hover{
+    cursor: pointer;
+    color: purple;
+}
+
+
+@media only screen and (min-width:1000px) and (max-width:1400px){
+    .item{
+        margin-right: 3%;
+        width: 18%;
+    }
+    .item2{
+        margin-left: 2%;
+        left: 66%;
+        width: 18%;
+    }
+    .item3{
+        margin-left: 3%;
+        left: 81%;
+        width: 18%;
+    }
+    .elementos{
+        padding-left:0px;
+    }
+}
+
+/*Query-cel-y-tablet*/
+@media only screen and (min-width:500px) and (max-width:999px){
+    .item{
+        margin-left: 1%;
+        width: 12%;
+    }
+    .item2{
+        margin-left: 2%;
+        left: 62%;
+        width: 12%;
+    }
+    .item3{
+        margin-left: 3%;
+        left: 75%;
+        width: 12%;
+    }
+    .menu{
+        width:100%;
+    }
+    .item-2, .item-3 {
+        display: none;
+    }
+}
+
+@media only screen and (min-width:350px) and (max-width:499px){
+    .item-2, .item-3 {
+        display: none;
+    }
+    .item{
+        margin-left: 2%;
+        width: auto;
+        margin-right: 2%;
+    }
+    .item2{
+        margin-left: 30%;
+        left: 62%;
+        width: 12%;
+    }
+    .item3{
+        margin-left: 35%;
+        left: 75%;
+        width: 8%;
+    }
+    .elementos{
+        padding:none;
+        width: 90%;
+    }
+    .menu{
+        width:145%;
+    }
+    .item2{
+        margin-top: -65px;
+    }
+}

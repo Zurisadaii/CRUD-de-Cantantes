@@ -1,0 +1,89 @@
+body{
+    margin:0px;
+    padding:0px;
+    background:rgb(245, 245, 245); font-family: 'Raleway', sans-serif; 
+}
+
+.cuadro, .cuadro2{
+    width: 18%;
+    min-width: 250px;
+    height: 450px;
+    max-width: 320px;
+    float: left;
+    margin-left: 30px;
+    margin-top: 15px;
+    border: 1px solid;
+    border-color: lightgray;
+    display: inline-block;
+    padding: 15px;
+}
+
+.cuadro2 {
+    padding: none;
+}
+
+.cuadro2:hover {
+    cursor: pointer;
+}
+
+.container {
+    display: inline-block;
+    width: 90%;
+    margin-left: 4%;
+}
+
+.foto {
+     margin-top: 5px;
+}
+
+.titulo {
+    font-weight: bold;
+    margin-left: 110px;
+    margin-top: 40px;
+}
+
+.bot1 {
+    float: left;
+    margin-left: 30%;
+    position: inherit;
+    top: 90%;
+}
+
+.texto {
+    padding-left: 25px;
+    font-size:18px;
+}
+
+#mas{
+    font-size: 180px;
+    position: relative;
+    top: 12%;
+    left: 18%;
+    color: gray;
+}
+
+
+
+@media only screen and (min-width:1000px) and (max-width:1641px){
+    .cuadro, .cuadro2{
+        height: 380px;
+    }
+    .titulo {
+        margin-left: 100px;
+    }
+}
+
+@media only screen and (min-width:501px) and (max-width:999px){
+    .cuadro, .cuadro2{
+        height: 380px;
+    }
+    .titulo {
+        margin-left: 80px;
+    }
+}
+
+@media only screen and (min-width:350px) and (max-width:500px){
+    .cuadro, .cuadro2{
+        height: 375px;
+    }
+}

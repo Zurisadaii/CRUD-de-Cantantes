@@ -1,0 +1,62 @@
+body{
+    margin:0px;
+    padding:0px;
+    background:rgb(245, 245, 245); font-family: 'Raleway', sans-serif; 
+}
+
+.login, .container{
+    width: 35%;
+    margin: auto;
+    margin-top: 150px;
+    border: 1px solid #732cfb;
+    border-radius: 5px;
+    padding: 35px;
+}
+
+.lable{
+    margin: 5px;
+    padding-bottom: 20px;
+    margin-left: 40px;
+}
+
+.cuadro{
+    height: 30px;
+    width: 80%;
+    margin-left: 40px;
+}
+
+.hi{
+    margin-left: 40px;
+}
+.hi2, .hi3 {
+    margin-left: 42%;
+}
+
+.button{
+    margin-left: 40px;
+
+}
+
+@media only screen and (min-width:1000px) and (max-width:1400px){
+    .login, .container{
+        width: 55%;
+    }
+}
+
+/*Query-cel-y-tablet*/
+@media only screen and (min-width:500px) and (max-width:999px){
+    .login, .container{
+        width: 65%;
+    }
+}
+
+@media only screen and (min-width:350px) and (max-width:499px){
+    .login, .container{
+        width: 95%;
+        margin-left: 18%;
+    }
+    .hi2 {
+        margin-left: 15%;
+    }
+    
+}

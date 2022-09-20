@@ -1,0 +1,84 @@
+body{
+    margin:0px;
+    padding:0px;
+    background:rgb(245, 245, 245); font-family: 'Raleway', sans-serif; 
+}
+
+.titulo {
+    background-color: #330098;
+    color: #ffffff;
+    text-align: left;
+    font-weight: bold;
+}
+
+.titulo2 {
+    text-align: left;
+    font-weight: bold;
+    margin-left: 15px;
+}
+
+.bonito {
+    border-collapse: collapse;
+    margin: auto;
+    font-size: 16px;
+    font-family: sans-serif;
+    min-width: 90%;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+.col, .col2{
+    background-color: #330098;
+    color: #ffffff;
+    text-align: left;
+    font-weight: bold;
+}
+
+.bonito th,
+.bonito td {
+    padding: 12px 10px;
+}
+
+.act {
+    margin-left: 40px;
+    margin-bottom: 5px;
+    margin-top: 20px;
+}
+
+.datos {
+    width: 700px;
+    margin: auto;
+}
+
+.add1{
+    font-weight: bold;
+}
+
+.add2{
+    font-weight: bold;
+    padding-left: 60px;
+}
+
+@media only screen and (min-width:769px) and (max-width:1000px){
+    table.bonito td:nth-child(4), td:nth-child(5), td:nth-child(6), td:nth-child(7), td:nth-child(9) {
+        display: none;
+    }
+}
+
+/*Query-cel-y-tablet*/
+@media only screen and (min-width:560px) and (max-width:768px){
+
+    table.bonito td:nth-child(3), td:nth-child(4), td:nth-child(5), td:nth-child(6), td:nth-child(7), td:nth-child(9) {
+        display: none;
+    }
+}
+
+@media only screen and (min-width:350px) and (max-width:559px){
+
+    table.bonito td:nth-child(3), td:nth-child(4), td:nth-child(5), td:nth-child(6), td:nth-child(7), td:nth-child(8), td:nth-child(9) {
+        display: none;
+    }
+
+    table.bonito {
+        margin-left: 8%;
+    }
+}
